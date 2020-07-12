@@ -29,7 +29,7 @@ Veja também o **mobile**, clique aqui: [GoBarber Mobile](https://github.com/jho
 
 ## 🚀 Tecnologias
 
-Tecnologias que utilizei para desenvolver esta api
+Tecnologias utilizadas neste projeto NodeJS
 
 - [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/)
