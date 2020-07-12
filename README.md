@@ -10,7 +10,7 @@
 <p align="center">
   <a href="#-Sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-getting-started">Executando o projeto</a>
+  <a href="#-Executando-o-projeto">Executando o projeto</a>
 </p>
 
 
