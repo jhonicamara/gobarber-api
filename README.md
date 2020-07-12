@@ -77,24 +77,6 @@ $ docker run --name gobarber-mongodb -p 27017:27017 -d -t mongo
 # Crie uma instancia do redis usando docker
 $ docker run --name gobarber-redis -p 6379:6379 -d -t redis:alpine
 
-# Agora devemos criar o nosso DATABASE no postgres.
-
-# Primeiro devemos acessar a instância do postgres
-$ docker exec -i -t gobarber-postgres /bin/sh
-
-# Depois devemos nos logar utilizando o usuario criado na criação da instância do postgres
-$ su gobarber
-
-# Agora para acessar em definitivo o terminal, executamos:
-$ psql
-
-# Agora nós estamos dentro do terminal da instância do postgres, agora podemos criar o nosso database para a aplicação
-$ CREATE DATABASE gobarber;
-
-# Depois de criarmos, nos podemos sair executando os comandos:
-$ \q
-$ exit
-
 # Copie o arquivo '.env.example' e o renomeie para '.env' depois adicione os valores das variaveis ambiente.
 $ cp .env.example .env
 
